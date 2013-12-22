@@ -13,9 +13,13 @@ public class ClubActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_club);
 	}
-	public void go_biofarm (View v) {
+	public void go_biofarm (View v) { 			//바이오팜
 		Intent myintent = new Intent(this, ClubActivity.class);
 		setContentView(R.layout.biofarm);
+		}
+	public void go_event (View v) {				//동아리메인
+		Intent myintent = new Intent(this, ClubActivity.class);
+		setContentView(R.layout.activity_club);
 		}
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
