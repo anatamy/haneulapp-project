@@ -69,6 +69,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="\n농장에서 사람들이 필요로 하는 농작물을 키워 재배하듯이 하늘고등학교에서 생물에 관심 있는 학생들이 자신의 관심분야에 대한 지식을 키워 미래사회에 이바지하자는 취지하에서 설립한 동아리입니다. Bio Farm은 밝혀내리라 생각도 못했던 사람의 DNA 구조가 밝혀지고, 동식물의 유전자 변형이 이루어지고, 의료기술이 발달해 사람의 수명이 연장되어가는 사회 속에서 생물학적 지식에 관한 갈증해소를 위해 동아리원들이 주체적으로 실험을 설계하고 실행하며 활동하고 있습니다. 또한 동아리부원들이 다양한 분야에서 수상실적을 거두고 있으며 자체적으로 정기모임을 갖고 있는 동아리입니다." />
+
+    	<Button
+    	    android:id="@+id/go_clubmain1"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:text="Go To Main"
+    	    android:onClick="go_event" />
+
 	</LinearLayout>
 </ScrollView>
 	
