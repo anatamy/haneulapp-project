@@ -17,6 +17,18 @@ public class ClubActivity extends Activity {
 		Intent myintent = new Intent(this, ClubActivity.class);
 		setContentView(R.layout.biofarm);
 		}
+	public void go_caritas (View v) { 			//카리타스
+		Intent myintent = new Intent(this, ClubActivity.class);
+		setContentView(R.layout.caritas);
+		}
+	public void go_volunteather (View v) { 			//교육봉사
+		Intent myintent = new Intent(this, ClubActivity.class);
+		setContentView(R.layout.volunteather);
+		}
+	public void go_archi (View v) { 			//ARCHI
+		Intent myintent = new Intent(this, ClubActivity.class);
+		setContentView(R.layout.archi);
+		}
 	public void go_event (View v) {				//동아리메인
 		Intent myintent = new Intent(this, ClubActivity.class);
 		setContentView(R.layout.activity_club);
