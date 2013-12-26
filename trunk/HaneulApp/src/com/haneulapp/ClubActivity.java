@@ -29,6 +29,18 @@ public class ClubActivity extends Activity {
 		Intent myintent = new Intent(this, ClubActivity.class);
 		setContentView(R.layout.archi);
 		}
+	public void go_alchemist (View v) { 			//Alchemist
+		Intent myintent = new Intent(this, ClubActivity.class);
+		setContentView(R.layout.alchemist);
+		}
+	public void go_blue (View v) { 			//BLUE
+		Intent myintent = new Intent(this, ClubActivity.class);
+		setContentView(R.layout.blue);
+		}
+	public void go_onair (View v) { 			//ON AIR
+		Intent myintent = new Intent(this, ClubActivity.class);
+		setContentView(R.layout.onair);
+		}
 	public void go_event (View v) {				//동아리메인
 		Intent myintent = new Intent(this, ClubActivity.class);
 		setContentView(R.layout.activity_club);
