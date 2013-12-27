@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+	<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vonlunteather\n"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+       		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+       			<ImageView
+       			    android:id="@+id/imageView1"
+       			    android:layout_width="262dp"
+       			    android:layout_height="208dp"
+       			    android:src="@drawable/v1" />
+
+        	</LinearLayout>
+    	</HorizontalScrollView>
+
+    	<TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\n인접 지역의 중학교를 직접 방문해 지식을 나누고 하늘고등학교를 대외적으로 알리자는 취지로 설립되었습니다. 교육봉사 활동은 저희 동아리의 목적이자 가장 대표적인 활동으로, 인근 중학교와 연계하여 중학생들이 멘티가 되고, 동아리 부원들이 멘토가 되어 매주 1회 실시하는 1:1 지식 나눔 활동입니다. 수업을 받는 각각의 학생들과 상의하여 중학교뿐만이 아닌 고등학교에서 배우는 내용까지 자발적으로 원하는 공부를 할 수 있게 합니다. 교육봉사 활동은 멘토에게는 실제로 학생을 맡아 가르치는 활동을 해 봄으로써 미리 경험을 쌓고, 교사라는 꿈의 동기 부여뿐만 아니라, 본인의 학습 상황도 되돌아 볼 수 있는 기회를 제공합니다. 또한, 멘토들은 이 활동을 통해서 단순히 지식을 전달하는 것이 아니라 고등학교에 대한 정보와 하늘고등학교 입학을 희망하는 멘티에게는 기숙사학교의 생활, 장단점, 공부방법 등에 대해서도 학생들과 상담을 하고, 이를 통해 학생과 소통하는 진정한 선생님을 목표로 합니다. 수업준비 과정에서 선후배간에 정보교환과 토론을 하며 발전을 거듭하고 있을 뿐만 아니라, 매월 생일자 파티를 진행하며 2기와 3기 학생들의 친목도모까지 할 수 있도록 하고 있습니다. 올해에도 진행되는 교육봉사동아리만의 특색 활동으로는 대표적으로 교육봉사 활동과 발표자와 평가자를 정해 실제 수업을 진행하고 서로의 수업 방식을 피드백할 수 있는 수업평가 활동이 있습니다. 현재 영종중학교에서 2년간 ‘영종중-하늘고 sky 멘토링’ 프로그램을 진행하고 있으며, 지역 신문과 경인일보에 소개되기도 했습니다. 매주 봉사 활동이 끝날 때마다 보고서를 통해 포트폴리오를 작성합니다. " />
+
+    
+	</LinearLayout>
+</ScrollView>
+	
+
+</LinearLayout>
+<!-- 교육봉사 레이아웃 -->

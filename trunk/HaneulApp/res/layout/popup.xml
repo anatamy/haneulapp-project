@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@android:color/background_light">
+ <LinearLayout 
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:orientation="vertical" 
+     android:layout_margin="1dp"
+     android:background="@android:color/darker_gray">
+     >
+     <LinearLayout 
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical" 
+      android:layout_margin="20dp">
+
+         <Button
+             android:id="@+id/club"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Club"
+             android:onClick="activity_club"
+ />
+
+         <Button
+             android:id="@+id/event"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Event"
+             android:onClick="activity_event" />
+
+         <Button
+             android:id="@+id/school"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="School"
+             android:onClick="activity_school" />
+
+         <Button
+             android:id="@+id/uniform"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Uniform"
+             android:onClick="activity_uniform" />
+
+      <Button
+          android:id="@+id/dismiss"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="닫기" />
+      </LinearLayout>
+ </LinearLayout>
+</LinearLayout>
