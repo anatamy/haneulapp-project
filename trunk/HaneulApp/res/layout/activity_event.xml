@@ -36,7 +36,7 @@
         android:layout_alignLeft="@+id/textView1"
         android:layout_below="@+id/textView1"
         android:layout_marginTop="30dp"
-        android:text="3월내용" />
+        android:text="3.4 입학식.\n3.13 전국연합학력평가\n" />
 
     <TextView
         android:id="@+id/TextView3"
@@ -56,7 +56,7 @@
         android:layout_alignLeft="@+id/TextView3"
         android:layout_below="@+id/TextView3"
         android:layout_marginTop="30dp"
-        android:text="4월내용" />
+        android:text="4.3 교내과학경시대회\n4.5 교내수학경시대회\n4.16~18 전국영어듣기시험\n4.24~26 중간고사\n4.27 신입생 입학설명회" />
 
     <TextView
         android:id="@+id/TextView5"
@@ -76,7 +76,7 @@
         android:layout_alignLeft="@+id/TextView5"
         android:layout_below="@+id/TextView5"
         android:layout_marginTop="25dp"
-        android:text="5월내용" />
+        android:text="5.1뉴욕주립대 입시설명회\n5.3경인교대 입시설명회\n5.3 중앙대 입시설명회\n5.8숙명여대 입학설명회\n5.16교내체육대회 \n5.24고려대 입학설명회\n5.24LG스쿨콘서트\n5.29가천대 입시설명회" />
 
     <TextView
         android:id="@+id/TextView7"
@@ -96,7 +96,7 @@
         android:layout_alignLeft="@+id/TextView7"
         android:layout_below="@+id/TextView7"
         android:layout_marginTop="25dp"
-        android:text="6월내용" />
+        android:text="6.3 아주대설명회\n6.5 전국연합학력평가(1,2학년)\n6.5 대수능모의평가(3학년)\n6.7 서울대공대교수특강\n6.25 국가수준학업성취도평가(2학년)" />
     
         <TextView
         android:id="@+id/TextView9"
@@ -116,7 +116,7 @@
         android:layout_alignLeft="@+id/TextView9"
         android:layout_below="@+id/TextView9"
         android:layout_marginTop="25dp"
-        android:text="7월내용" />
+        android:text="7.3~5 기말고사\n7.8 NIE논술대회\n7.12 전국연합학력평가(3학년)\n7.15 교내논술경시대회\n7.17 방학식\n7.27 2차 학교 설명회" />
         <TextView
         android:id="@+id/TextView11"
         android:layout_width="wrap_content"
@@ -135,7 +135,7 @@
         android:layout_alignLeft="@+id/TextView11"
         android:layout_below="@+id/TextView11"
         android:layout_marginTop="25dp"
-        android:text="8월내용" />
+        android:text="8.19  개학식\n 8.29~30 중간고사(3학년)\n8.31 3차 학교 설명회" />
         <TextView
         android:id="@+id/TextView13"
         android:layout_width="wrap_content"
@@ -154,7 +154,7 @@
         android:layout_alignLeft="@+id/TextView13"
         android:layout_below="@+id/TextView13"
         android:layout_marginTop="25dp"
-        android:text="9월내용" />
+        android:text="9.6 중학교 모교 방문\n9.11 중3진학담당교사 초청설명회\n 9.13 SKY페스티벌 참석\n 9.24~26 영어듣기평가\n9.27 시립무용단공연" />
         <TextView
         android:id="@+id/TextView15"
         android:layout_width="wrap_content"
@@ -173,7 +173,7 @@
         android:layout_alignLeft="@+id/TextView15"
         android:layout_below="@+id/TextView15"
         android:layout_marginTop="25dp"
-        android:text="10월내용" />
+        android:text="10.8 전국연합학력평가(3학년)\n10.16~18 중간고사(1~2학년)\n 10.16~18 기말고사(3학년)\n10.22~25 현장체험학습(1.2학년)" />
             <TextView
         android:id="@+id/TextView17"
         android:layout_width="wrap_content"
@@ -192,7 +192,7 @@
         android:layout_alignLeft="@+id/TextView17"
         android:layout_below="@+id/TextView17"
         android:layout_marginTop="25dp"
-        android:text="11월내용" />
+        android:text="11.1 존. E. 엔디컷 총장 특강\n11.4~8 신입생원서접수\n11.7 수능\n 11.14 교육청연합모의수능\n 11.15 고입2단계 인터넷서류접수\n11.22 고입면접일\n 11.28 고입학격자발표\n" />
             <TextView
         android:id="@+id/TextView19"
         android:layout_width="wrap_content"
@@ -211,7 +211,7 @@
         android:layout_alignLeft="@+id/TextView19"
         android:layout_below="@+id/TextView19"
         android:layout_marginTop="25dp"
-        android:text="12월내용" />
+        android:text="12.11~13기말고사(1.2학년)\n 12.30~31 학술제\n 12.31 방학식" />
     
         </RelativeLayout>
     </ScrollView>
