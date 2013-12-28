@@ -1,0 +1,27 @@
+package com.haneulapp;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.View;
+import android.view.ViewGroup.LayoutParams;
+import android.widget.Button;
+import android.widget.PopupWindow;
+
+public class UniformActivity extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_uniform);
+	}
+     		
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.uniform, menu);
+		return true;
+	}
+
+}

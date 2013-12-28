@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+     >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    	android:paddingBottom="@dimen/activity_vertical_margin"
+    	android:paddingLeft="@dimen/activity_horizontal_margin"
+    	android:paddingRight="@dimen/activity_horizontal_margin" >
+
+	<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HTTP\n"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+       		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/http" />
+
+        	</LinearLayout>
+    	</HorizontalScrollView>
+
+    	<TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\n물리 동아리인 HTTP는 외부 중학교에 가서 과학 실험 도우미 활동을 하며, 소그룹을 편성하여 각 그룹마다 실험도구를 이용해 실험을 하고 보고서를 작성한다. 그리고 물리 인증제 시험을 준비하고 있다. 뿐만아니라 동아리원 중 20명을 선발해서 물리 발명품을 만들고 실험을 한다." />
+
+	</LinearLayout>
+</ScrollView>
+	
+
+</LinearLayout>
+<!-- HTTP 레이아웃 -->
