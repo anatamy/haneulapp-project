@@ -1,27 +1,36 @@
 package com.haneulapp;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.View;
-import android.view.ViewGroup.LayoutParams;
-import android.widget.Button;
-import android.widget.PopupWindow;
-
+import android.widget.GridView;
+ 
 public class SchoolActivity extends Activity {
+    
+    //------------------------------------------------------------
+    // imageIDs 배열은 GridView 뷰를 구성하는 이미지 파일들의 리소스 ID들을 담습니다.
+    
+    private int[] imageIDs = new int[] {
+        R.drawable.school_1_gym,
+        R.drawable.school_1_health,
+        R.drawable.school_1_main,
+        R.drawable.school_1_park,
+        R.drawable.school_1_road_bot,
+        R.drawable.school_1_road_inside_a,
+        R.drawable.school_1_road_inside,
+        R.drawable.school_1_road,
+        R.drawable.school_1_stair,
+        R.drawable.school_1_stone,
+        R.drawable.school_1_toilet,
+    };
+    
+    /** Called when the activity is first created. */
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_school);
 
-	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_school);
-			}
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.school, menu);
-		return true;
-	}
-
-}
+        GridView gridViewImages = (GridView)findViewById(R.id.gridViewImages);
+        ImageGridAdapter imageGridAdapter = new ImageGridAdapter(this, imageIDs);
+        gridViewImages.setAdapter(imageGridAdapter);
+    }
+} 
